@@ -27,7 +27,7 @@ export default function Hero() {
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ДРОНЫ
+          ДРОН 56
           <br />
           В ПОРЯДКЕ
         </h1>
