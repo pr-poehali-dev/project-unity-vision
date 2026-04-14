@@ -64,6 +64,14 @@ export default function Footer() {
                 >
                   rc-oren@mail.ru
                 </a>
+                <a
+                  href="https://maps.yandex.ru/?text=Оренбург+ул.+Дорофеева+5"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white hover:text-neutral-400 transition-colors duration-300 text-sm sm:text-base"
+                >
+                  Оренбург, ул. Дорофеева 5, офис 8
+                </a>
               </div>
             </div>
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-4 sm:gap-0">
