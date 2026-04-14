@@ -34,12 +34,30 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
           Профессиональный ремонт и настройка квадрокоптеров DJI и Autel. Быстро, надёжно, с гарантией.
         </p>
-        <a
-          href="mailto:rc-oren@mail.ru"
-          className="inline-block mt-8 bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-neutral-200 transition-colors duration-300"
-        >
-          Оставить заявку
-        </a>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+          <a
+            href="mailto:rc-oren@mail.ru"
+            className="inline-block bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-neutral-200 transition-colors duration-300"
+          >
+            Оставить заявку
+          </a>
+          <a
+            href="https://wa.me/79226253964"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-transparent text-white border border-white px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-white hover:text-black transition-colors duration-300"
+          >
+            WhatsApp
+          </a>
+          <a
+            href="https://t.me/+79226253964"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-transparent text-white border border-white px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-white hover:text-black transition-colors duration-300"
+          >
+            Telegram
+          </a>
+        </div>
       </div>
     </div>
   );
