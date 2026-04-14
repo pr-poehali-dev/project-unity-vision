@@ -49,7 +49,14 @@ export default function Hero() {
           >
             WhatsApp
           </a>
-
+          <a
+            href="https://www.avito.ru/orenburg/predlozheniya_uslug/remont_kvadrokopterov_dji_7633601661"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-transparent text-white border border-white px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-white hover:text-black transition-colors duration-300"
+          >
+            Авито
+          </a>
         </div>
       </div>
     </div>
