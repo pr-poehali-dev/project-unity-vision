@@ -34,9 +34,12 @@ export default function Hero() {
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
           Профессиональный ремонт и настройка квадрокоптеров DJI и Autel. Быстро, надёжно, с гарантией.
         </p>
-        <button className="mt-8 bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+        <a
+          href="mailto:rc-oren@mail.ru"
+          className="inline-block mt-8 bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-neutral-200 transition-colors duration-300"
+        >
           Оставить заявку
-        </button>
+        </a>
       </div>
     </div>
   );

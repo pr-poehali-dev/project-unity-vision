@@ -13,9 +13,12 @@ export default function Featured() {
         <p className="text-2xl lg:text-4xl mb-8 text-neutral-900 leading-tight">
           Специализируемся исключительно на DJI и Autel. Диагностика за 30 минут, ремонт в день обращения — и гарантия на все работы.
         </p>
-        <button className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black cursor-pointer w-fit uppercase tracking-wide">
+        <a
+          href="mailto:rc-oren@mail.ru"
+          className="bg-black text-white border border-black px-4 py-2 text-sm transition-all duration-300 hover:bg-white hover:text-black w-fit uppercase tracking-wide inline-block"
+        >
           Узнать стоимость
-        </button>
+        </a>
       </div>
     </div>
   );
