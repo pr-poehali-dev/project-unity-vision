@@ -80,7 +80,7 @@ export default function Footer() {
                 <br />
                 SERVICE
               </h1>
-              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} DroneService</p>
+              <p className="text-white text-sm sm:text-base">{new Date().getFullYear()} DRONE 56</p>
             </div>
           </div>
         </div>
