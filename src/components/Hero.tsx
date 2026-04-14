@@ -19,19 +19,24 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/ac836b24-d3d1-43b4-a5d0-664acf5cbac8/files/3dd5de65-c2c8-4388-8a14-936f4a699178.jpg"
+          alt="Drone repair workshop"
           className="w-full h-full object-cover"
         />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+          ДРОНЫ
+          <br />
+          В ПОРЯДКЕ
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Профессиональный ремонт и настройка квадрокоптеров DJI и Autel. Быстро, надёжно, с гарантией.
         </p>
+        <button className="mt-8 bg-white text-black px-8 py-3 text-sm uppercase tracking-wide font-semibold hover:bg-neutral-200 transition-colors duration-300 cursor-pointer">
+          Оставить заявку
+        </button>
       </div>
     </div>
   );
