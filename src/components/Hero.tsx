@@ -19,9 +19,9 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="https://cdn.poehali.dev/projects/ac836b24-d3d1-43b4-a5d0-664acf5cbac8/files/3dd5de65-c2c8-4388-8a14-936f4a699178.jpg"
+          src="https://cdn.poehali.dev/projects/ac836b24-d3d1-43b4-a5d0-664acf5cbac8/bucket/a8c9a159-0f50-4678-85c8-59b4962cf3ab.jpg"
           alt="Drone repair workshop"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-center"
         />
       </motion.div>
 
