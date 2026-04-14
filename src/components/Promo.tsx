@@ -18,7 +18,7 @@ export default function Promo() {
       <div className="fixed top-[-10vh] left-0 h-[120vh] w-full">
         <motion.div style={{ y }} className="relative w-full h-full">
           <img
-            src="https://cdn.poehali.dev/projects/ac836b24-d3d1-43b4-a5d0-664acf5cbac8/files/ad444753-6de5-4d4f-b6eb-3538811bc50e.jpg"
+            src="https://cdn.poehali.dev/projects/ac836b24-d3d1-43b4-a5d0-664acf5cbac8/files/d8f40c29-7009-4206-95a3-8780ce00b426.jpg"
             alt="DJI Matrice 4T"
             className="w-full h-full object-cover"
           />
